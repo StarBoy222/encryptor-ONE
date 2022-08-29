@@ -1,0 +1,121 @@
+body{
+    background-color:#E9ECF8;  
+    box-sizing: border-box; 
+}
+
+header{
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section{
+    /*background-color: blanchedalmond;*/
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#entrada-texto{
+    position: relative;
+    /*height: 500px;
+    width: 60%;*/
+    border-radius: 20px;
+    border: 0px;
+    background-color: #E9ECF8;
+    color: #0A3871;
+    font: 20px 'Roboto Mono';
+    margin: 0 0 0 7%;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+
+#salida-texto{
+    position: relative;
+    /*height: 500px;
+    width: 27%;*/
+    right: -5%;
+    border-radius: 20px;
+    border: 0px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 10px;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    outline: none;
+    background-image: url(./Group\ 8.svg);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: 50%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+.leyenda{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 9px;
+    position: relative;
+    right: -91px;
+    color: #343A40;
+}
+
+.leyenda span{
+    border-radius: 10px;
+    border: solid #343A40 1px;
+    background-color: #343A40;
+    color: white;
+}
+
+#encriptar{
+    position: relative;
+    right: -7%;
+    margin: 0px auto;
+    width: 328px;
+    height: 50px;
+    border-radius: 24px;
+    background: #0A3871;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+#desencriptar{
+    position: relative;
+    right: -14%;
+    margin: 0px auto;
+    width: 328px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    background: #D8DFE8;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+#copiar{
+    position: relative;
+    right: -22%;
+    margin: 0px auto;
+    width: 328px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    background: #D8DFE8;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+

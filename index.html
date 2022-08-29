@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+            <img src="./logo.svg" alt="Logo">
+    </header>
+
+    <section>
+
+            <form action="">
+                
+    
+                <textarea name="" id="entrada-texto" cols="65" rows="15" placeholder="Ingresa el texto aqui!"></textarea>
+
+                <textarea name="" id="salida-texto" cols="45" rows="40" disabled = ""></textarea>
+            
+                <p class="leyenda"> <span>!</span> Solo letras minusculas y sin acentos</p>
+                <input type="button" value="Encriptar" id="encriptar" onclick="encriptMessage()">
+                <input type="button" value="Desencriptar" id="desencriptar" onclick="desencriptMessage()">
+                <input type="button" value="Copiar" id="copiar" onclick="copy()">
+            </form>
+
+    </section>    
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
